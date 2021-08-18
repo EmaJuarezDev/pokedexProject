@@ -20,7 +20,7 @@ function pokemon() {
     
 }
 pokemon();
-document.getElementById('btn').addEventListener('click',()=> {location.reload().getElementById('_body')
+document.getElementById('btn').addEventListener('click',()=> {location.reload().getElementById('_cards')
   pokemon();
 })
 /*async function postImgPokemon(imgUrl) {
